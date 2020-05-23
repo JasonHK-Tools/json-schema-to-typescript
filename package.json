@@ -18,7 +18,7 @@
   "author": "Jason Kwok <github@jasonhk.email> (https://jasonhk.net/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest --config=./configs/jest.config.json"
   },
   "dependencies": {},
   "devDependencies": {
