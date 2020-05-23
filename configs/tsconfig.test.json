@@ -1,0 +1,21 @@
+{
+    "extends": "@jasonhk/typescript-config",
+    "compilerOptions": {
+        "target": "ES2017",
+        "module": "CommonJS",
+        "baseUrl": "../",
+        "rootDir": "../tests",
+        "paths": {
+            "src": ["./src"],
+            "src/*": ["./src/*"]
+        },
+        "types": [
+            "jest",
+            "jest-extended",
+            "ts-jest"
+        ]
+    },
+    "include": [
+        "../tests/**/*"
+    ]
+}
